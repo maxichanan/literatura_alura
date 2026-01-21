@@ -129,7 +129,6 @@ public class Principal {
 
     private void autoresVivosEnDeterminadoAno(){
         System.out.println(Menu.solicitarAno());
-        //int anoSolicitado = Integer.parseInt(scanner.nextLine());
         String datoIngresado = scanner.nextLine();
         int anoSolicitado = validarDatoIngresado(datoIngresado);
         List<Autor> listaAutores= repositorio.listaAutoresEnDeterminadoano(anoSolicitado);
